@@ -1,0 +1,34 @@
+default:
+  adapter: postgresql
+  timeout: 5000
+  encoding: unicode
+  pool: 5
+  username: postgres
+  host: db
+
+development:
+  adapter: postgresql
+  timeout: 5000
+  encoding: unicode
+  pool: 5
+  username: postgres
+  host: db
+  database: myapp_development
+
+test:
+  adapter: postgresql
+  timeout: 5000
+  encoding: unicode
+  pool: 5
+  username: postgres
+  host: db
+  database: myapp_test
+
+production:
+  adapter: postgresql
+  timeout: 5000
+  encoding: unicode
+  pool: 5
+  username: postgres
+  host: db
+  database: myapp_production
